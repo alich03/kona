@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return {"msg":"app is ok now"}
+    return {"msg":"kona API app is ok now"}
 
 @app.route('/process_image', methods=['POST','GET'])
 def process_image():

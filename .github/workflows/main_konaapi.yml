@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'konaapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_46C75DBB8CA1456FA2D84D0EE5EE406C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D7CF9627954F40BB9CF4F1A2290EE831 }}
